@@ -15,15 +15,16 @@
   text-align: center;
 }
 
-.hero-bg {
+.hero__image {
   position: absolute;
-  top: -0px;
-  left: 0;
+  top: 0px;
+  left: 0px;
+  width: 790px;
   height: 697px;
   pointer-events: none;
 }
 
-.title {
+.hero__title {
   position: relative;
   font-size: 70px;
   text-align: center;
@@ -33,15 +34,18 @@
   color: #515076;
 }
 
-.products-list {
+.products {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.products__list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
   justify-content: center;
-  max-width: 1110px;
   max-height: 1191px;
-  margin: 0 auto;
 }
 
 .product-card {
@@ -52,53 +56,58 @@
   flex-direction: column;
 }
 
-.product-header {
+.product-card__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card__header {
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-.skin-type {
+.product-card__skin-type {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 12px;
   color: #a5a3b9;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
-.product-title {
+.product-card__title {
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #515076;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.product-descripion {
+.product-card__description {
   font-size: 13px;
   font-weight: 400;
   color: #515076;
   line-height: 18px;
 }
 
-.compound-title {
+.product-card__compound-title {
   font-size: 14px;
   font-weight: 500;
   color: #515076;
   margin-bottom: 8px;
 }
 
-.product-compound {
+.product-card__compound {
   list-style-position: inside;
   margin-bottom: 25px;
 }
 
-.product-compound li {
+.product-card__compound li {
   font-size: 13px;
   color: #515076;
   margin-bottom: 5px;
 }
 
-.product-price {
+.product-card__price {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
