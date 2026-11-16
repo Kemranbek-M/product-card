@@ -114,3 +114,17 @@
   font-size: 20px;
   color: #515076;
 }
+
+.color-btn {
+  background-color: #1f7a4d;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.color-btn--active {
+  background-color: #6b3fa0;
+}
